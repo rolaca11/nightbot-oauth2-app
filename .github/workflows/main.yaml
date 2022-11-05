@@ -18,9 +18,7 @@ jobs:
         npm install
     - name: Package
       run: npm run build
-    - name: Publish generated content to GitHub Pages
-      uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
-      with:
-        dir: build
-        branch: gh-pages
-        token: ${{ secrets.ACCESS_TOKEN }}
+    - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
