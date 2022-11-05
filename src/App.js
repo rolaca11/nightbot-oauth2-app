@@ -5,21 +5,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <a href='https://nightbot.tv/oauth2/authorize?response_type=token&client_id=696715cfbb1376ccd8702f40a5191877&scope=commands%20timers&redirect_uri=http%3A%2F%2Flocalhost%3A3000' className='button'>Login</a>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Token: <code>{ getToken() ?? "Log in to get token" }</code>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
+}
+
+const getToken = () => {
+  return window.location.hash.substring(1)
+  .split("&").map(entry => ({
+    key: entry.split("=")[0],
+    value: entry.split("=")[1]
+  })).find(entry => entry.key === "access_token")?.value
 }
 
 export default App;
