@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a href='https://nightbot.tv/oauth2/authorize?response_type=token&client_id=696715cfbb1376ccd8702f40a5191877&scope=commands%20timers&redirect_uri=http%3A%2F%2Flocalhost%3A3000' className='button'>Login</a>
+        <a href='https://nightbot.tv/oauth2/authorize?response_type=token&client_id=696715cfbb1376ccd8702f40a5191877&scope=commands%20timers&redirect_uri=https%3A%2F%2Frolaca11.github.io%2Fnightbot-oauth2-app%2F' className='button'>Login</a>
         <p>
           Token: <code>{ getToken() ?? "Log in to get token" }</code>
         </p>
