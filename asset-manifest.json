@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nightbot-oauth2-app/static/css/main.238c094e.css",
-    "main.js": "/nightbot-oauth2-app/static/js/main.530d572a.js",
+    "main.js": "/nightbot-oauth2-app/static/js/main.82137eab.js",
     "static/js/787.eda75fc9.chunk.js": "/nightbot-oauth2-app/static/js/787.eda75fc9.chunk.js",
     "index.html": "/nightbot-oauth2-app/index.html",
     "main.238c094e.css.map": "/nightbot-oauth2-app/static/css/main.238c094e.css.map",
-    "main.530d572a.js.map": "/nightbot-oauth2-app/static/js/main.530d572a.js.map",
+    "main.82137eab.js.map": "/nightbot-oauth2-app/static/js/main.82137eab.js.map",
     "787.eda75fc9.chunk.js.map": "/nightbot-oauth2-app/static/js/787.eda75fc9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.238c094e.css",
-    "static/js/main.530d572a.js"
+    "static/js/main.82137eab.js"
   ]
 }
